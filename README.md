@@ -1,58 +1,40 @@
-### vue-typescript-beego-admin
+#### 在2020年春节期间做的一个物业管理系统，基于vue-cli4、vue、element和beego实现。
 
-    基于vue-cli4、vue、element和beego实现，前后端权限动态配置后台管理基础模板。
+---
 
-### 前端 vue-cli4 生成项目 -> client
+### 功能列表
+- 首页
+- 小区管理
+- 房产信息管理
+- 住户信息管理
+- 停车位管理
+- 收费管理
+- 资产设备管理
+- 值班管理
+- 系统配置
 
-#### Project setup
-```
-yarn install
-```
 
-#### Compiles and hot-reloads for development
-```
-yarn serve
-```
+---
+### 页面展示
+##### 登录
+![登录](https://github.com/soliangxin/property_management/blob/master/doc/登录.jpg)
 
-#### Compiles and minifies for production
-```
-yarn build
-```
+##### 房产信息管理
+![房产信息管理](https://github.com/soliangxin/property_management/blob/master/doc/房产信息管理.jpg)
 
-#### Lints and fixes files
-```
-yarn lint
-```
+##### 收费管理
+![收费管理](https://github.com/soliangxin/property_management/blob/master/doc/收费管理.jpg)
 
-#### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##### 小区管理
+![小区管理](https://github.com/soliangxin/property_management/blob/master/doc/小区管理.jpg)
 
-基于以下：
-    1. https://github.com/PanJiaChen/vue-element-admin
-    2. https://github.com/Armour/vue-typescript-admin-template
-2个开源项目修改
+##### 值班管理
+![值班管理](https://github.com/soliangxin/property_management/blob/master/doc/值班管理.jpg)
 
-### 功能
-1. 前后端权限管理通过后台控制，前端路由根据登录账号角色动态添加路由
-2. element分页抽离二次封装组件
-3. 前端路由添加分为公共路由和权限路由
-    I. src\router\index.ts 公共路由
-    II. src\router\authRouter.ts 权限路由前端只配置component,详细路由信息配置设置：【权限管理-权限因子-打开前端配置】
+##### 资产查看
+![资产查看](https://github.com/soliangxin/property_management/blob/master/doc/资产查看.jpg)
 
-### 模块
-    1. 后台管理员
-    2. 权限管理->管理员、角色、权限因子
-    3. 角色管理
+##### 资产设备管理
+![资产设备管理](https://github.com/soliangxin/property_management/blob/master/doc/资产设备管理.jpg)
 
-### beego 后台管理Api接口快速开发 See(https://beego.me/).
-    1. 路由
-
-        后台管理路由 routers admin.go
-
-    2. 接口
-
-        后台管理api controllers admin_controllers
-
-### 请求地址
-
-    http://localhost:8000
+---
